@@ -1,0 +1,25 @@
+/* VARIAVEIS GLOBAIS */
+:root {
+    --fontColor:#FFE3FC;
+    --fontColor1:#8f7193;
+    --bgColor1:#FFC5D3;
+    --bgColor2:#FE88BC;
+}
+body{
+    background: var(--bgColor2)
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+}
+@media (max-width: 500px){
+    .container{
+        justify-content:start;
+        padding:15px;
+    }
+}
+

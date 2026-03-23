@@ -1,3 +1,5 @@
+import '../css/global.css'
+import '../css/resultado.css'
 // DESESTRUTURANDO O RESULTADO PARA PEGAR O VALOR
 const Tabela =({resultado}) => {
     const valor=parseFloat(resultado);
